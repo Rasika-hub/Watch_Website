@@ -201,6 +201,9 @@ input[type=text] {
 .gif{
     margin-left: 10%;
 }
+#gif{
+    width: 365px;
+}
 .txtcontainer h1{
     margin-left: 10%;
     margin-top: -10%;
@@ -394,6 +397,12 @@ input[type=text] {
     .article{
         display: block;
         position: relative;
+        width: 100%;
+
+    }
+    .article img{
+        width: 100%;
+        margin: 0;
     }
     .for-her{
         width: 100%;
@@ -457,6 +466,7 @@ input[type=text] {
     .gif img{
         width: 400px;
         margin-bottom: 30PX;
+        margin-left: -28px;
     }
     .txtcontainer{
         position: relative;
@@ -508,9 +518,13 @@ input[type=text] {
     .stytxt{
         margin-left: 35%;
     }
+    .foot-img-container{
+        display: inline-block;
+    }
     .foot-img-container img{
         margin: 0;
-        width: 245px;
+        width: 50%;
+        float: left;
      }
      .foot{
          display: block;
@@ -538,5 +552,8 @@ input[type=text] {
      }
     .foot-email{
          display: none;
+     }
+     #ul{
+         margin-left: 80px;
      }
 }
